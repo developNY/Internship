@@ -6,17 +6,17 @@
 
 ### Frontend
 
-HTML5, CSS, Javascript, JQuery
-Vue.js
-element
-Kendo
+* HTML5, CSS, Javascript, JQuery
+* Vue.js
+* element
+* Kendo
 
 ### Backend
 
-jdk 7
-eclipse mars
-tomcat7
-Spring Framework (4.xx)
-Oracle + MsSql
+* jdk 7
+* eclipse mars
+* tomcat7
+* Spring Framework (4.xx)
+* Oracle + MsSql
 
 (작성중)
