@@ -10,13 +10,26 @@
 * Vue.js
 * element
 * Kendo
+* node.js Server
 
 ### Backend
 
 * jdk 7
 * eclipse mars
-* tomcat7
+* tomcat7 Server
 * Spring Framework (4.xx)
 * Oracle + MsSql
 
-(작성중)
+
+
+### Tool
+
+- VisualStudio CODE
+- Eclipse Mars
+- Fiddler4: 웹 디버깅 툴
+- Postman: API 통신 테스트 툴
+- SVN: 형상관리 툴
+- ProtoNow: 프로토타입 툴
+- Bare Tail: 로그 관련
+- Notepad++
+- Sqlite: 데이터베이스 관리, SVN 쿼리

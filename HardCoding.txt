@@ -1,0 +1,6 @@
+1. 하드코딩 최소화:
+	- ko.yaml 만들어 label, button등의 한글 영어 처리 후 $t{'login.name'} 이런식으로 선언해서 사용.
+	- api.js 각종 서버통신함수들 모아두고 import 해서 사용
+	- util.js 빈번히 사용되는 공통 함수들 모아두고 import 해서 사용
+	- 많은 곳에서 사용되는 dialog를 공통화하여 import해서 <dialog 이런식으로 태그화 하여 사용
+	- constant.js에서 공통 변수 선언하고 import해서 사용

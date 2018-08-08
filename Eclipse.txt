@@ -1,0 +1,27 @@
+1. 이클립스 svn 사용법:
+	- 프로젝트 svn 주소, id, pw 입력 후 프로젝트 checkout
+	- team -> synchronize ~ 에서 update, commit 가능
+	- commit전에 충돌 해결 후 Mark as merge 한 뒤 commit하기
+	- commit 전에 반드시 vs code 서버 중지
+	- team -> show history에서 커밋 내역 확인 가능
+	- history에서 compare ~ 클릭하면 지난 커밋과 현재 커밋 변경사항 확인 가능
+	- 수정 내역이 뜨지 않을 경우 project refresh하면 됨
+	- svn 꼬인 경우 최악의 상황에 프로젝트 내 .svn 제거 후 다시 받기
+	- 이전 버전으로 돌리고 싶으면 revert
+	- 회색은 내가 작성한것, 파란색은 상대방이 커밋한 것
+
+2. 이클립스 디버깅:
+	- Tomcat 서버 디버깅 모드로 start
+	- 보고싶은 곳에 break point 걸기
+	- 프런트에서 request 보내고 작동 확인
+	- F5: 소스를 깊이 파고들어 다양한 소스들로 이동하며 보여줌
+	- F6: 현재 소스에서만 이동
+	- F7: 현재의 메서드에서 리턴한 후, 메서드 호출부에서 다시 멈춤.
+	- F8: 모든 단계 건너 뛰기
+	- Drop to Frame은 처음부터 다시 디버깅 실행
+
+3. 이클립스 default java 버전 변경법: eclipse.ini에서 자바 경로 잡아줌
+
+4. build.xml으로 was 말기. 이것의 장점은 필요없는 라이브러리를 빼고 import하여 용량 최소화함
+
+5. log4j에 각종 로그들 찍혀 있으므로 잘 읽어보는 것이 중요함. web.xml에서 dev 모드와 prod모드가 있음. 로그를 좀 더 편하게 보기위해 나눔. 둘 중 하나를 주석처리하고 사용

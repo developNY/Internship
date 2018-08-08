@@ -1,0 +1,2 @@
+1. tomcat PermZen 에러는 톰캣이 너무 무거워 발생 -> timeout을 늘리면 해결
+2. tomcat 기동 잘 안될 경우 server clean 후 재기동 하기

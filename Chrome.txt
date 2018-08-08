@@ -1,0 +1,4 @@
+1. 크롬 개발자도구 사용법:
+	- element: 
+	- network:
+	- sources: F8 누르면 디버깅 가능
